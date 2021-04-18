@@ -1,0 +1,72 @@
+/* Appliable to everything */
+html{
+    font-size: x-large;
+}
+body {
+    text-align: center;
+    font-family: monospace;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Fall back to every structure */
+h1, h2, h3, h4, h5, div, p{
+    padding: 1% 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Generic classes */
+div.top-wrapper {
+    display: inline-block;
+    height: 10%;
+    width: 98%;
+    padding: 0% 1% 0% 1%;
+}
+
+div.content-wrapper {
+    display: inline-block;
+    height: 90%;
+    width: 98%;
+    padding: 0% 1% 0% 1%;
+}
+
+p.quote {
+    text-align: center;
+    font-style: italic;
+}
+p.ass {
+    text-align: right;
+}
+
+/* Home specific orientation */
+div.home-center {
+    text-align: center;
+    width: 80%;
+    padding: 1% 5%;
+    margin: 1% 5%;
+}
+
+div.home-right {
+    text-align: right;
+    width: 50%;
+    float: right;
+    padding: 1% 5%;
+    margin: 1% 5%;
+}
+div.home-left {
+    text-align: left;
+    width: 50%;
+    float: left;
+    padding: 1% 5%;
+    margin: 1% 5%;
+}
+
+div.home-bottom {
+    float: bottom;
+    text-align: center;
+    width: 80%;
+    padding: 1% 5%;
+    margin: 1% 5%;
+}

@@ -1,0 +1,59 @@
+/**
+General
+*/
+body {
+    background-color: #fff;
+    color: rgb(4, 136, 15);
+}
+
+/**
+Navigation bar CSS
+*/
+/* Generic navbar settings */
+.nav {
+    float: left;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Specific to elements */
+.bar {
+    width: 100%; /* percentage of the body width */
+    padding: 10px 0px 10px 0px;
+}
+
+.bttn {
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 1% 2% 1% 2%; /* percentage of the .bar width */
+}
+
+    .bttn:hover {
+        background-color: #555555;
+        color: #FFFFFF;
+        
+    }
+    .bttn:active {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+#thm {
+    float: right;
+    padding: 1% 2% 1% 2%; /* percentage of the .bar width */
+}
+/**
+Content CSS
+*/
+
+a {
+    color:#999;
+}
+    a:hover{
+        color: #f00;
+    }
+    
+/* Home specific coloring  */

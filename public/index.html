@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Desmond Moony</title>
+
+    <link rel="stylesheet" href="/main.css">
+    <link id="style" rel="stylesheet" href="/stylesheets/light-theme.css">
+
+    <script src="/scripts/navbar.js"></script>
+</head>
+
+<body>
+    <div class="top-wrapper">
+        <div class="nav bar">
+            <p class="nav bttn" onclick="navigate('/templates/home')"> Home </p>
+            <p class="nav bttn" onclick="navigate('/templates/projects')"> Projects </p>
+            <p class="nav bttn" onclick="navigate('/templates/stories')"> Stories </p>
+            <p class="nav bttn" onclick="navigate('/templates/aboutme')"> About </p>
+            <p class="nav bttn" id="thm" onclick="changeTheme()">Dark</p>
+        </div>
+    </div>
+    <script src="/scripts/change-theme.js"></script>
+
+    <div class="content-wrapper" id="content">
+        <p>Failed to load content... Javascript, are you there?</p>
+    </div>    
+    <script>restorepage('/templates/home')</script>
+</body>
+
+</html>
